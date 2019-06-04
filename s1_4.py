@@ -1,5 +1,5 @@
 g=input()
-if g.isalpha()==TRUE:
-  print("Alphabet")
+if (g>='a' and g<='z') or (g>='A' and g<='Z'):
+     print("Alphabet")    
 else:
-  print("No")
+     print("No")
