@@ -3,7 +3,7 @@ a=n
 res=0
 while(n!=0):
   rev=n%10
-  res=res*10+res
+  res=res*10+rev
   n=n//10
   
 if(a==res):
