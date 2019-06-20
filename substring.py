@@ -1,8 +1,11 @@
-"""get the input from user"""
+#get the input from user
 n=input()
-"""if the user entered in a caps convert into smaller"""
-low=n.lower()
-"""convert the given input into set so that duplicates are been removed"""
-s=set(low)
-"""print the length of set"""
-print(len(s))
+#check if user entered is alphabets or not
+if(n.isalpha()==True):
+    #if user entered in a upper case convert into lower case
+    b=n.lower()
+    #it set is used to remove the distint elements
+    s=set(b)
+    print(len(s))
+else:
+    print("please enter alphabets")
