@@ -1,0 +1,11 @@
+g=int(input())
+sum=0
+temp=g
+while(temp>0):
+  h=temp%10
+  sum=sum+h**3
+  temp=temp//10
+if(g==sum):
+  print("Yes")
+else:
+  print("No")
