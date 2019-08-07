@@ -1,5 +1,5 @@
 a,b=map(int,input().split())
-for i in range(a,b+1):
+for i in range(a,b):
   temp=i
   sum=0
   while(temp>0):
